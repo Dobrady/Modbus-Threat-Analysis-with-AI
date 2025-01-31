@@ -1,0 +1,2255 @@
+2025-01-31 00:55:04,689 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 00:55:04,691 [DEBUG]: Modbus server stopped
+
+2025-01-31 00:55:04,691 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 00:56:18,735 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 00:56:18,736 [DEBUG]: Modbus server stopped
+
+2025-01-31 00:56:18,736 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 00:58:32,494 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 00:59:35,715 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 00:59:35,717 [DEBUG]: Modbus server stopped
+
+2025-01-31 00:59:35,717 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:01:54,876 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:02:00,018 [DEBUG]: Started thread to serve client at ('192.168.56.106', 40658)
+
+2025-01-31 01:02:00,019 [DEBUG]: Client Connected [192.168.56.106:40658]
+
+2025-01-31 01:02:00,019 [DEBUG]: Handling data: 0x78 0xcb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:00,019 [DEBUG]: Processing: 0x78 0xcb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:00,019 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:02:00,020 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:02:00,020 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:02:00,020 [DEBUG]: send: b'78cb00000009010406001100110011'
+
+2025-01-31 01:02:02,080 [DEBUG]: Handling data: 0x30 0x1f 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:02,080 [DEBUG]: Processing: 0x30 0x1f 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:02,080 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:02:02,080 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:02:02,080 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:02:02,080 [DEBUG]: send: b'301f00000009010406001100110011'
+
+2025-01-31 01:02:04,120 [DEBUG]: Handling data: 0x24 0x13 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:04,120 [DEBUG]: Processing: 0x24 0x13 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:04,120 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:02:04,120 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:02:04,120 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:02:04,120 [DEBUG]: send: b'241300000009010406001100110011'
+
+2025-01-31 01:02:06,162 [DEBUG]: Handling data: 0xe6 0xb7 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:06,162 [DEBUG]: Processing: 0xe6 0xb7 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:06,162 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:02:06,162 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:02:06,163 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:02:06,163 [DEBUG]: send: b'e6b700000009010406001100110011'
+
+2025-01-31 01:02:08,206 [DEBUG]: Handling data: 0xb3 0x4 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:08,206 [DEBUG]: Processing: 0xb3 0x4 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:08,206 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:02:08,206 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:02:08,206 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:02:08,206 [DEBUG]: send: b'b30400000009010406001100110011'
+
+2025-01-31 01:02:10,264 [DEBUG]: Handling data: 0x6 0x6d 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:10,264 [DEBUG]: Processing: 0x6 0x6d 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:02:10,264 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:02:10,264 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:02:10,264 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:02:10,264 [DEBUG]: send: b'066d00000009010406001100110011'
+
+2025-01-31 01:03:55,685 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:03:55,687 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:03:55,687 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:09:19,660 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:09:19,687 [INFO]: Terminating existing Modbus server (PID 2025)
+
+2025-01-31 01:09:19,689 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:09:19,689 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:11:27,386 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:11:27,413 [INFO]: Terminating existing Modbus server (PID 2025)
+
+2025-01-31 01:11:27,415 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:11:27,416 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:12:00,545 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:12:01,244 [DEBUG]: Started thread to serve client at ('192.168.56.106', 51334)
+
+2025-01-31 01:12:01,245 [DEBUG]: Client Connected [192.168.56.106:51334]
+
+2025-01-31 01:12:01,245 [DEBUG]: Handling data: 0x24 0xef 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:01,245 [DEBUG]: Processing: 0x24 0xef 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:01,245 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:01,245 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:01,245 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:01,245 [DEBUG]: send: b'24ef00000009010406001100110011'
+
+2025-01-31 01:12:03,301 [DEBUG]: Handling data: 0xd7 0x79 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:03,302 [DEBUG]: Processing: 0xd7 0x79 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:03,302 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:03,302 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:03,302 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:03,302 [DEBUG]: send: b'd77900000009010406001100110011'
+
+2025-01-31 01:12:05,344 [DEBUG]: Handling data: 0x2d 0x95 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:05,345 [DEBUG]: Processing: 0x2d 0x95 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:05,345 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:05,345 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:05,345 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:05,345 [DEBUG]: send: b'2d9500000009010406001100110011'
+
+2025-01-31 01:12:07,378 [DEBUG]: Handling data: 0x9e 0xd2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:07,378 [DEBUG]: Processing: 0x9e 0xd2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:07,378 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:07,378 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:07,378 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:07,378 [DEBUG]: send: b'9ed200000009010406001100110011'
+
+2025-01-31 01:12:09,424 [DEBUG]: Handling data: 0xe9 0x29 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:09,425 [DEBUG]: Processing: 0xe9 0x29 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:09,425 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:09,425 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:09,425 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:09,425 [DEBUG]: send: b'e92900000009010406001100110011'
+
+2025-01-31 01:12:11,473 [DEBUG]: Handling data: 0xb3 0x48 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:11,474 [DEBUG]: Processing: 0xb3 0x48 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:11,474 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:11,474 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:11,474 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:11,474 [DEBUG]: send: b'b34800000009010406001100110011'
+
+2025-01-31 01:12:13,519 [DEBUG]: Handling data: 0x7e 0xc3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:13,519 [DEBUG]: Processing: 0x7e 0xc3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:13,519 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:13,519 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:13,519 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:13,519 [DEBUG]: send: b'7ec300000009010406001100110011'
+
+2025-01-31 01:12:15,566 [DEBUG]: Handling data: 0x61 0xb8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:15,566 [DEBUG]: Processing: 0x61 0xb8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:15,566 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:15,566 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:15,566 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:15,566 [DEBUG]: send: b'61b800000009010406001100110011'
+
+2025-01-31 01:12:17,618 [DEBUG]: Handling data: 0xde 0xaf 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:17,618 [DEBUG]: Processing: 0xde 0xaf 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:17,618 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:17,618 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:17,618 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:17,618 [DEBUG]: send: b'deaf00000009010406001100110011'
+
+2025-01-31 01:12:19,671 [DEBUG]: Handling data: 0x18 0x9b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:19,671 [DEBUG]: Processing: 0x18 0x9b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:19,671 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:19,671 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:19,671 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:19,671 [DEBUG]: send: b'189b00000009010406001100110011'
+
+2025-01-31 01:12:21,726 [DEBUG]: Handling data: 0xc3 0xec 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:21,727 [DEBUG]: Processing: 0xc3 0xec 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:21,727 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:21,727 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:21,727 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:21,727 [DEBUG]: send: b'c3ec00000009010406001100110011'
+
+2025-01-31 01:12:23,772 [DEBUG]: Handling data: 0x5d 0xfe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:23,772 [DEBUG]: Processing: 0x5d 0xfe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:23,772 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:23,772 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:23,772 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:23,772 [DEBUG]: send: b'5dfe00000009010406001100110011'
+
+2025-01-31 01:12:25,822 [DEBUG]: Handling data: 0x9f 0x16 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:25,822 [DEBUG]: Processing: 0x9f 0x16 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:25,822 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:25,822 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:25,822 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:25,822 [DEBUG]: send: b'9f1600000009010406001100110011'
+
+2025-01-31 01:12:26,380 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:12:27,863 [DEBUG]: Handling data: 0xbb 0x43 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:27,863 [DEBUG]: Processing: 0xbb 0x43 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:27,863 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:27,863 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:27,863 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:27,863 [DEBUG]: send: b'bb4300000009010406001100110011'
+
+2025-01-31 01:12:29,915 [DEBUG]: Handling data: 0x7f 0x79 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:29,916 [DEBUG]: Processing: 0x7f 0x79 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:29,916 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:29,916 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:29,916 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:29,916 [DEBUG]: send: b'7f7900000009010406001100110011'
+
+2025-01-31 01:12:31,960 [DEBUG]: Handling data: 0xfc 0x38 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:31,960 [DEBUG]: Processing: 0xfc 0x38 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:31,960 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:31,960 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:31,960 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:31,960 [DEBUG]: send: b'fc3800000009010406001100110011'
+
+2025-01-31 01:12:34,008 [DEBUG]: Handling data: 0x9c 0x7e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:34,008 [DEBUG]: Processing: 0x9c 0x7e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:34,008 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:34,008 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:34,008 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:34,009 [DEBUG]: send: b'9c7e00000009010406001100110011'
+
+2025-01-31 01:12:36,058 [DEBUG]: Handling data: 0x21 0x50 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:36,058 [DEBUG]: Processing: 0x21 0x50 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:36,058 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:36,058 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:36,058 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:36,058 [DEBUG]: send: b'215000000009010406001100110011'
+
+2025-01-31 01:12:38,109 [DEBUG]: Handling data: 0x5c 0xc6 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:38,109 [DEBUG]: Processing: 0x5c 0xc6 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:38,109 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:38,109 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:38,109 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:38,109 [DEBUG]: send: b'5cc600000009010406001100110011'
+
+2025-01-31 01:12:40,162 [DEBUG]: Handling data: 0x12 0x68 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:40,162 [DEBUG]: Processing: 0x12 0x68 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:40,162 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:40,162 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:40,162 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:40,162 [DEBUG]: send: b'126800000009010406001100110011'
+
+2025-01-31 01:12:42,201 [DEBUG]: Handling data: 0x7 0x70 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:42,201 [DEBUG]: Processing: 0x7 0x70 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:42,201 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:42,201 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:42,201 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:42,201 [DEBUG]: send: b'077000000009010406001100110011'
+
+2025-01-31 01:12:44,250 [DEBUG]: Handling data: 0x18 0x5b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:44,250 [DEBUG]: Processing: 0x18 0x5b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:44,250 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:44,250 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:44,250 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:44,250 [DEBUG]: send: b'185b00000009010406001100110011'
+
+2025-01-31 01:12:46,302 [DEBUG]: Handling data: 0xb9 0x2d 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:46,303 [DEBUG]: Processing: 0xb9 0x2d 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:46,303 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:46,303 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:46,303 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:46,303 [DEBUG]: send: b'b92d00000009010406001100110011'
+
+2025-01-31 01:12:48,358 [DEBUG]: Handling data: 0x63 0x25 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:48,358 [DEBUG]: Processing: 0x63 0x25 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:48,358 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:48,358 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:48,359 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:48,359 [DEBUG]: send: b'632500000009010406001100110011'
+
+2025-01-31 01:12:50,405 [DEBUG]: Handling data: 0xda 0xa3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:50,406 [DEBUG]: Processing: 0xda 0xa3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:50,406 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:50,406 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:50,406 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:50,406 [DEBUG]: send: b'daa300000009010406001100110011'
+
+2025-01-31 01:12:52,457 [DEBUG]: Handling data: 0x4a 0x5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:52,457 [DEBUG]: Processing: 0x4a 0x5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:52,457 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:52,457 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:52,457 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:52,457 [DEBUG]: send: b'4a0500000009010406001100110011'
+
+2025-01-31 01:12:54,514 [DEBUG]: Handling data: 0x19 0x17 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:54,514 [DEBUG]: Processing: 0x19 0x17 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:54,514 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:54,514 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:54,514 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:54,514 [DEBUG]: send: b'191700000009010406001100110011'
+
+2025-01-31 01:12:56,568 [DEBUG]: Handling data: 0xca 0xad 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:56,568 [DEBUG]: Processing: 0xca 0xad 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:56,568 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:56,568 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:56,568 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:56,568 [DEBUG]: send: b'caad00000009010406001100110011'
+
+2025-01-31 01:12:58,612 [DEBUG]: Handling data: 0xe7 0xe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:58,612 [DEBUG]: Processing: 0xe7 0xe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:12:58,612 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:12:58,612 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:12:58,612 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:12:58,612 [DEBUG]: send: b'e70e00000009010406001100110011'
+
+2025-01-31 01:13:00,660 [DEBUG]: Handling data: 0xcd 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:00,660 [DEBUG]: Processing: 0xcd 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:00,661 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:00,661 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:00,661 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:00,661 [DEBUG]: send: b'cdd800000009010406001100110011'
+
+2025-01-31 01:13:02,713 [DEBUG]: Handling data: 0xa4 0x34 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:02,714 [DEBUG]: Processing: 0xa4 0x34 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:02,714 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:02,714 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:02,714 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:02,714 [DEBUG]: send: b'a43400000009010406001100110011'
+
+2025-01-31 01:13:04,764 [DEBUG]: Handling data: 0x7d 0xe1 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:04,764 [DEBUG]: Processing: 0x7d 0xe1 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:04,764 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:04,764 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:04,764 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:04,764 [DEBUG]: send: b'7de100000009010406001100110011'
+
+2025-01-31 01:13:06,813 [DEBUG]: Handling data: 0x35 0x76 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:06,813 [DEBUG]: Processing: 0x35 0x76 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:06,813 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:06,813 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:06,813 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:06,813 [DEBUG]: send: b'357600000009010406001100110011'
+
+2025-01-31 01:13:08,865 [DEBUG]: Handling data: 0x18 0xa3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:08,866 [DEBUG]: Processing: 0x18 0xa3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:08,866 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:08,866 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:08,866 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:08,866 [DEBUG]: send: b'18a300000009010406001100110011'
+
+2025-01-31 01:13:10,914 [DEBUG]: Handling data: 0xbb 0x5a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:10,914 [DEBUG]: Processing: 0xbb 0x5a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:10,914 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:10,914 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:10,914 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:10,914 [DEBUG]: send: b'bb5a00000009010406001100110011'
+
+2025-01-31 01:13:12,968 [DEBUG]: Handling data: 0x94 0xbb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:12,969 [DEBUG]: Processing: 0x94 0xbb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:12,969 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:12,969 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:12,969 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:12,969 [DEBUG]: send: b'94bb00000009010406001100110011'
+
+2025-01-31 01:13:15,018 [DEBUG]: Handling data: 0x25 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:15,019 [DEBUG]: Processing: 0x25 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:15,019 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:15,019 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:15,019 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:15,019 [DEBUG]: send: b'25c800000009010406001100110011'
+
+2025-01-31 01:13:17,058 [DEBUG]: Handling data: 0x6b 0xe8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:17,058 [DEBUG]: Processing: 0x6b 0xe8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:17,058 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:17,058 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:17,058 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:17,059 [DEBUG]: send: b'6be800000009010406001100110011'
+
+2025-01-31 01:13:19,102 [DEBUG]: Handling data: 0x32 0x91 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:19,102 [DEBUG]: Processing: 0x32 0x91 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:19,102 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:19,102 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:19,102 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:19,102 [DEBUG]: send: b'329100000009010406001100110011'
+
+2025-01-31 01:13:21,155 [DEBUG]: Handling data: 0x50 0x4 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:21,155 [DEBUG]: Processing: 0x50 0x4 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:21,155 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:21,155 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:21,155 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:21,155 [DEBUG]: send: b'500400000009010406001100110011'
+
+2025-01-31 01:13:23,206 [DEBUG]: Handling data: 0x6b 0x98 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:23,206 [DEBUG]: Processing: 0x6b 0x98 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:23,206 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:23,206 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:23,206 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:23,206 [DEBUG]: send: b'6b9800000009010406001100110011'
+
+2025-01-31 01:13:25,253 [DEBUG]: Handling data: 0xa7 0x4a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:25,253 [DEBUG]: Processing: 0xa7 0x4a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:25,253 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:25,253 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:25,253 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:25,253 [DEBUG]: send: b'a74a00000009010406001100110011'
+
+2025-01-31 01:13:27,297 [DEBUG]: Handling data: 0x4b 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:27,297 [DEBUG]: Processing: 0x4b 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:27,297 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:27,297 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:27,297 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:27,297 [DEBUG]: send: b'4bd800000009010406001100110011'
+
+2025-01-31 01:13:29,343 [DEBUG]: Handling data: 0x91 0xc6 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:29,344 [DEBUG]: Processing: 0x91 0xc6 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:29,344 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:29,344 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:29,344 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:29,344 [DEBUG]: send: b'91c600000009010406001100110011'
+
+2025-01-31 01:13:31,391 [DEBUG]: Handling data: 0xf2 0x8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:31,391 [DEBUG]: Processing: 0xf2 0x8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:31,391 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:31,391 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:31,391 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:31,391 [DEBUG]: send: b'f20800000009010406001100110011'
+
+2025-01-31 01:13:33,439 [DEBUG]: Handling data: 0xa8 0x36 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:33,439 [DEBUG]: Processing: 0xa8 0x36 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:33,439 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:33,439 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:33,439 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:33,439 [DEBUG]: send: b'a83600000009010406001100110011'
+
+2025-01-31 01:13:35,493 [DEBUG]: Handling data: 0x3 0xb2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:35,493 [DEBUG]: Processing: 0x3 0xb2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:35,493 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:35,493 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:35,493 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:35,493 [DEBUG]: send: b'03b200000009010406001100110011'
+
+2025-01-31 01:13:37,538 [DEBUG]: Handling data: 0x7c 0xdb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:37,538 [DEBUG]: Processing: 0x7c 0xdb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:37,538 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:37,539 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:37,539 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:37,539 [DEBUG]: send: b'7cdb00000009010406001100110011'
+
+2025-01-31 01:13:39,583 [DEBUG]: Handling data: 0x95 0x2e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:39,583 [DEBUG]: Processing: 0x95 0x2e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:39,583 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:39,583 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:39,583 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:39,583 [DEBUG]: send: b'952e00000009010406001100110011'
+
+2025-01-31 01:13:41,632 [DEBUG]: Handling data: 0xff 0x95 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:41,633 [DEBUG]: Processing: 0xff 0x95 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:41,633 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:41,633 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:41,633 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:41,633 [DEBUG]: send: b'ff9500000009010406001100110011'
+
+2025-01-31 01:13:43,679 [DEBUG]: Handling data: 0x2c 0xa5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:43,679 [DEBUG]: Processing: 0x2c 0xa5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:43,679 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:43,679 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:43,679 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:43,679 [DEBUG]: send: b'2ca500000009010406001100110011'
+
+2025-01-31 01:13:45,730 [DEBUG]: Handling data: 0x64 0x52 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:45,730 [DEBUG]: Processing: 0x64 0x52 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:45,730 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:45,730 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:45,730 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:45,730 [DEBUG]: send: b'645200000009010406001100110011'
+
+2025-01-31 01:13:47,773 [DEBUG]: Handling data: 0x6f 0xdd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:47,773 [DEBUG]: Processing: 0x6f 0xdd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:47,773 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:47,773 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:47,773 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:47,773 [DEBUG]: send: b'6fdd00000009010406001100110011'
+
+2025-01-31 01:13:49,823 [DEBUG]: Handling data: 0x57 0xb9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:49,823 [DEBUG]: Processing: 0x57 0xb9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:49,823 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:49,823 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:49,823 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:49,823 [DEBUG]: send: b'57b900000009010406001100110011'
+
+2025-01-31 01:13:51,868 [DEBUG]: Handling data: 0xf4 0x1c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:51,869 [DEBUG]: Processing: 0xf4 0x1c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:51,869 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:51,869 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:51,869 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:51,869 [DEBUG]: send: b'f41c00000009010406001100110011'
+
+2025-01-31 01:13:53,920 [DEBUG]: Handling data: 0xf3 0xfe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:53,921 [DEBUG]: Processing: 0xf3 0xfe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:53,921 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:53,921 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:53,921 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:53,921 [DEBUG]: send: b'f3fe00000009010406001100110011'
+
+2025-01-31 01:13:55,973 [DEBUG]: Handling data: 0x4a 0x19 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:55,973 [DEBUG]: Processing: 0x4a 0x19 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:55,974 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:55,974 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:55,974 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:55,974 [DEBUG]: send: b'4a1900000009010406001100110011'
+
+2025-01-31 01:13:58,029 [DEBUG]: Handling data: 0xe6 0xdb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:58,030 [DEBUG]: Processing: 0xe6 0xdb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:13:58,030 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:13:58,030 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:13:58,030 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:13:58,030 [DEBUG]: send: b'e6db00000009010406001100110011'
+
+2025-01-31 01:13:58,291 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:14:31,896 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:14:32,802 [DEBUG]: Started thread to serve client at ('192.168.56.106', 37078)
+
+2025-01-31 01:14:32,802 [DEBUG]: Client Connected [192.168.56.106:37078]
+
+2025-01-31 01:14:32,803 [DEBUG]: Handling data: 0x7a 0x33 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:32,803 [DEBUG]: Processing: 0x7a 0x33 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:32,803 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:32,803 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:32,803 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:32,803 [DEBUG]: send: b'7a3300000009010406001100110011'
+
+2025-01-31 01:14:34,851 [DEBUG]: Handling data: 0xe1 0x19 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:34,851 [DEBUG]: Processing: 0xe1 0x19 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:34,851 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:34,851 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:34,851 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:34,851 [DEBUG]: send: b'e11900000009010406001100110011'
+
+2025-01-31 01:14:35,194 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:14:35,194 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:14:35,194 [INFO]: Program exited successfully.
+
+2025-01-31 01:14:36,897 [DEBUG]: Handling data: 0xdf 0x8e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:36,897 [DEBUG]: Processing: 0xdf 0x8e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:36,897 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:36,897 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:36,897 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:36,897 [DEBUG]: send: b'df8e00000009010406001100110011'
+
+2025-01-31 01:14:38,947 [DEBUG]: Handling data: 0x9a 0x2e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:38,947 [DEBUG]: Processing: 0x9a 0x2e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:38,947 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:38,947 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:38,947 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:38,947 [DEBUG]: send: b'9a2e00000009010406001100110011'
+
+2025-01-31 01:14:41,003 [DEBUG]: Handling data: 0x6c 0x8c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:41,003 [DEBUG]: Processing: 0x6c 0x8c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:41,003 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:41,003 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:41,003 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:41,003 [DEBUG]: send: b'6c8c00000009010406001100110011'
+
+2025-01-31 01:14:43,056 [DEBUG]: Handling data: 0x40 0x4b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:43,056 [DEBUG]: Processing: 0x40 0x4b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:43,056 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:43,056 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:43,056 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:43,056 [DEBUG]: send: b'404b00000009010406001100110011'
+
+2025-01-31 01:14:43,986 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:14:43,986 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:14:43,986 [INFO]: Program exited successfully.
+
+2025-01-31 01:14:49,975 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:14:51,251 [DEBUG]: Started thread to serve client at ('192.168.56.106', 46044)
+
+2025-01-31 01:14:51,251 [DEBUG]: Client Connected [192.168.56.106:46044]
+
+2025-01-31 01:14:51,251 [DEBUG]: Handling data: 0x3f 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:51,251 [DEBUG]: Processing: 0x3f 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:51,251 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:51,251 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:51,251 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:51,251 [DEBUG]: send: b'3fc800000009010406001100110011'
+
+2025-01-31 01:14:53,298 [DEBUG]: Handling data: 0x19 0x9a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:53,298 [DEBUG]: Processing: 0x19 0x9a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:53,298 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:53,298 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:53,298 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:53,298 [DEBUG]: send: b'199a00000009010406001100110011'
+
+2025-01-31 01:14:55,349 [DEBUG]: Handling data: 0x84 0x5b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:55,349 [DEBUG]: Processing: 0x84 0x5b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:55,349 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:55,349 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:55,349 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:55,349 [DEBUG]: send: b'845b00000009010406001100110011'
+
+2025-01-31 01:14:57,395 [DEBUG]: Handling data: 0x78 0x12 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:57,395 [DEBUG]: Processing: 0x78 0x12 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:57,395 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:57,395 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:57,395 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:57,395 [DEBUG]: send: b'781200000009010406001100110011'
+
+2025-01-31 01:14:59,438 [DEBUG]: Handling data: 0xa1 0xd0 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:59,438 [DEBUG]: Processing: 0xa1 0xd0 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:14:59,438 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:14:59,438 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:14:59,438 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:14:59,438 [DEBUG]: send: b'a1d000000009010406001100110011'
+
+2025-01-31 01:15:00,807 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:15:00,807 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:15:00,807 [INFO]: Program exited successfully.
+
+2025-01-31 01:15:01,488 [DEBUG]: Handling data: 0x4e 0x97 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:01,488 [DEBUG]: Processing: 0x4e 0x97 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:01,488 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:01,488 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:01,488 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:01,488 [DEBUG]: send: b'4e9700000009010406001100110011'
+
+2025-01-31 01:15:03,542 [DEBUG]: Handling data: 0x9 0xae 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:03,543 [DEBUG]: Processing: 0x9 0xae 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:03,543 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:03,543 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:03,543 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:03,543 [DEBUG]: send: b'09ae00000009010406001100110011'
+
+2025-01-31 01:15:05,597 [DEBUG]: Handling data: 0x32 0x40 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:05,597 [DEBUG]: Processing: 0x32 0x40 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:05,597 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:05,597 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:05,597 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:05,597 [DEBUG]: send: b'324000000009010406001100110011'
+
+2025-01-31 01:15:07,640 [DEBUG]: Handling data: 0x5 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:07,640 [DEBUG]: Processing: 0x5 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:07,640 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:07,640 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:07,640 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:07,640 [DEBUG]: send: b'05c800000009010406001100110011'
+
+2025-01-31 01:15:09,692 [DEBUG]: Handling data: 0xd5 0xd7 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:09,692 [DEBUG]: Processing: 0xd5 0xd7 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:09,692 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:09,692 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:09,692 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:09,692 [DEBUG]: send: b'd5d700000009010406001100110011'
+
+2025-01-31 01:15:11,738 [DEBUG]: Handling data: 0x12 0xe2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:11,739 [DEBUG]: Processing: 0x12 0xe2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:11,739 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:11,739 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:11,739 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:11,739 [DEBUG]: send: b'12e200000009010406001100110011'
+
+2025-01-31 01:15:13,788 [DEBUG]: Handling data: 0x2b 0xbb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:13,788 [DEBUG]: Processing: 0x2b 0xbb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:13,788 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:13,788 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:13,788 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:13,788 [DEBUG]: send: b'2bbb00000009010406001100110011'
+
+2025-01-31 01:15:15,835 [DEBUG]: Handling data: 0xd0 0x3a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:15,835 [DEBUG]: Processing: 0xd0 0x3a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:15,835 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:15,835 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:15,835 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:15,835 [DEBUG]: send: b'd03a00000009010406001100110011'
+
+2025-01-31 01:15:17,889 [DEBUG]: Handling data: 0xf3 0xa0 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:17,889 [DEBUG]: Processing: 0xf3 0xa0 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:17,889 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:17,889 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:17,889 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:17,889 [DEBUG]: send: b'f3a000000009010406001100110011'
+
+2025-01-31 01:15:19,941 [DEBUG]: Handling data: 0x2d 0x18 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:19,941 [DEBUG]: Processing: 0x2d 0x18 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:19,942 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:19,942 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:19,942 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:19,942 [DEBUG]: send: b'2d1800000009010406001100110011'
+
+2025-01-31 01:15:21,988 [DEBUG]: Handling data: 0x87 0x32 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:21,989 [DEBUG]: Processing: 0x87 0x32 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:21,989 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:21,989 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:21,989 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:21,989 [DEBUG]: send: b'873200000009010406001100110011'
+
+2025-01-31 01:15:24,031 [DEBUG]: Handling data: 0x46 0x59 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:24,031 [DEBUG]: Processing: 0x46 0x59 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:24,031 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:24,031 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:24,031 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:24,031 [DEBUG]: send: b'465900000009010406001100110011'
+
+2025-01-31 01:15:26,085 [DEBUG]: Handling data: 0x63 0xb9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:26,085 [DEBUG]: Processing: 0x63 0xb9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:15:26,085 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:15:26,085 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:15:26,085 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:15:26,085 [DEBUG]: send: b'63b900000009010406001100110011'
+
+2025-01-31 01:15:26,669 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:15:26,669 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:15:26,669 [INFO]: Program exited successfully.
+
+2025-01-31 01:16:43,712 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:16:43,749 [DEBUG]: Started thread to serve client at ('192.168.56.106', 49428)
+
+2025-01-31 01:16:43,749 [DEBUG]: Client Connected [192.168.56.106:49428]
+
+2025-01-31 01:16:43,749 [DEBUG]: Handling data: 0x47 0x70 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:43,749 [DEBUG]: Processing: 0x47 0x70 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:43,749 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:43,750 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:43,750 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:43,750 [DEBUG]: send: b'477000000009010406001100110011'
+
+2025-01-31 01:16:45,802 [DEBUG]: Handling data: 0x82 0xc2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:45,802 [DEBUG]: Processing: 0x82 0xc2 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:45,802 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:45,802 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:45,802 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:45,802 [DEBUG]: send: b'82c200000009010406001100110011'
+
+2025-01-31 01:16:45,990 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:16:45,990 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:16:45,990 [ERROR]: Failed to start Modbus server: name 'threading' is not defined
+
+2025-01-31 01:16:47,853 [DEBUG]: Handling data: 0xc6 0x62 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:47,853 [DEBUG]: Processing: 0xc6 0x62 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:47,853 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:47,853 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:47,853 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:47,853 [DEBUG]: send: b'c66200000009010406001100110011'
+
+2025-01-31 01:16:49,909 [DEBUG]: Handling data: 0x9f 0x7a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:49,910 [DEBUG]: Processing: 0x9f 0x7a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:49,910 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:49,910 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:49,910 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:49,910 [DEBUG]: send: b'9f7a00000009010406001100110011'
+
+2025-01-31 01:16:51,957 [DEBUG]: Handling data: 0xf6 0x65 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:51,957 [DEBUG]: Processing: 0xf6 0x65 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:51,957 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:51,957 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:51,957 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:51,957 [DEBUG]: send: b'f66500000009010406001100110011'
+
+2025-01-31 01:16:54,013 [DEBUG]: Handling data: 0xb6 0xcd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:54,013 [DEBUG]: Processing: 0xb6 0xcd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:54,013 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:54,013 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:54,013 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:54,013 [DEBUG]: send: b'b6cd00000009010406001100110011'
+
+2025-01-31 01:16:56,068 [DEBUG]: Handling data: 0x8f 0x5e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:56,068 [DEBUG]: Processing: 0x8f 0x5e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:56,068 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:56,068 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:56,068 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:56,068 [DEBUG]: send: b'8f5e00000009010406001100110011'
+
+2025-01-31 01:16:58,112 [DEBUG]: Handling data: 0x49 0xe8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:58,112 [DEBUG]: Processing: 0x49 0xe8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:16:58,112 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:16:58,112 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:16:58,112 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:16:58,112 [DEBUG]: send: b'49e800000009010406001100110011'
+
+2025-01-31 01:17:00,161 [DEBUG]: Handling data: 0x3b 0xd5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:00,161 [DEBUG]: Processing: 0x3b 0xd5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:00,161 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:00,161 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:00,161 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:00,161 [DEBUG]: send: b'3bd500000009010406001100110011'
+
+2025-01-31 01:17:02,213 [DEBUG]: Handling data: 0x2a 0xa3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:02,214 [DEBUG]: Processing: 0x2a 0xa3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:02,214 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:02,214 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:02,214 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:02,214 [DEBUG]: send: b'2aa300000009010406001100110011'
+
+2025-01-31 01:17:02,584 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:17:02,584 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:17:04,201 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:17:04,233 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:17:04,233 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:17:09,663 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:17:10,400 [DEBUG]: Started thread to serve client at ('192.168.56.106', 38264)
+
+2025-01-31 01:17:10,400 [DEBUG]: Client Connected [192.168.56.106:38264]
+
+2025-01-31 01:17:10,401 [DEBUG]: Handling data: 0x5a 0x18 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:10,401 [DEBUG]: Processing: 0x5a 0x18 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:10,401 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:10,401 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:10,401 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:10,401 [DEBUG]: send: b'5a1800000009010406001100110011'
+
+2025-01-31 01:17:12,454 [DEBUG]: Handling data: 0x49 0x74 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:12,454 [DEBUG]: Processing: 0x49 0x74 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:12,454 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:12,454 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:12,454 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:12,454 [DEBUG]: send: b'497400000009010406001100110011'
+
+2025-01-31 01:17:14,503 [DEBUG]: Handling data: 0x2f 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:14,503 [DEBUG]: Processing: 0x2f 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:14,503 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:14,503 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:14,503 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:14,503 [DEBUG]: send: b'2fd800000009010406001100110011'
+
+2025-01-31 01:17:14,794 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:17:14,794 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:17:14,794 [INFO]: Forcefully terminating thread: Thread-1 (process_request_thread)
+
+2025-01-31 01:17:15,794 [INFO]: Program exited successfully.
+
+2025-01-31 01:17:16,557 [DEBUG]: Handling data: 0xd8 0x5e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:16,557 [DEBUG]: Processing: 0xd8 0x5e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:16,557 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:16,557 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:16,557 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:16,557 [DEBUG]: send: b'd85e00000009010406001100110011'
+
+2025-01-31 01:17:18,607 [DEBUG]: Handling data: 0x81 0x3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:18,607 [DEBUG]: Processing: 0x81 0x3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:18,607 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:18,607 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:18,607 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:18,607 [DEBUG]: send: b'810300000009010406001100110011'
+
+2025-01-31 01:17:20,652 [DEBUG]: Handling data: 0x4f 0x64 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:20,652 [DEBUG]: Processing: 0x4f 0x64 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:20,652 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:20,652 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:20,652 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:20,652 [DEBUG]: send: b'4f6400000009010406001100110011'
+
+2025-01-31 01:17:22,704 [DEBUG]: Handling data: 0x7b 0xfb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:22,704 [DEBUG]: Processing: 0x7b 0xfb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:22,704 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:22,704 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:22,704 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:22,704 [DEBUG]: send: b'7bfb00000009010406001100110011'
+
+2025-01-31 01:17:24,749 [DEBUG]: Handling data: 0x4b 0xed 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:24,750 [DEBUG]: Processing: 0x4b 0xed 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:24,750 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:24,750 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:24,750 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:24,750 [DEBUG]: send: b'4bed00000009010406001100110011'
+
+2025-01-31 01:17:26,796 [DEBUG]: Handling data: 0x94 0xa8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:26,796 [DEBUG]: Processing: 0x94 0xa8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:26,797 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:26,797 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:26,797 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:26,797 [DEBUG]: send: b'94a800000009010406001100110011'
+
+2025-01-31 01:17:28,840 [DEBUG]: Handling data: 0x39 0x5b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:28,841 [DEBUG]: Processing: 0x39 0x5b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:28,841 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:28,841 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:28,841 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:28,841 [DEBUG]: send: b'395b00000009010406001100110011'
+
+2025-01-31 01:17:30,882 [DEBUG]: Handling data: 0x66 0xef 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:30,882 [DEBUG]: Processing: 0x66 0xef 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:30,882 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:30,882 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:30,882 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:30,882 [DEBUG]: send: b'66ef00000009010406001100110011'
+
+2025-01-31 01:17:32,360 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:17:32,360 [WARNING]: No active Modbus server instance found.
+
+2025-01-31 01:17:32,360 [INFO]: Forcefully terminating thread: Thread-1 (process_request_thread)
+
+2025-01-31 01:17:32,933 [DEBUG]: Handling data: 0x39 0xf 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:32,933 [DEBUG]: Processing: 0x39 0xf 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:17:32,933 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:17:32,933 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:17:32,933 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:17:32,933 [DEBUG]: send: b'390f00000009010406001100110011'
+
+2025-01-31 01:17:33,360 [INFO]: Program exited successfully.
+
+2025-01-31 01:20:12,950 [INFO]: Starting Modbus server...
+
+2025-01-31 01:20:12,950 [INFO]: Modbus server started successfully.
+
+2025-01-31 01:20:14,406 [DEBUG]: Started thread to serve client at ('192.168.56.106', 45312)
+
+2025-01-31 01:20:14,406 [DEBUG]: Client Connected [192.168.56.106:45312]
+
+2025-01-31 01:20:14,407 [DEBUG]: Handling data: 0x17 0x34 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:14,407 [DEBUG]: Processing: 0x17 0x34 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:14,407 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:14,407 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:14,407 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:14,407 [DEBUG]: send: b'173400000009010406001100110011'
+
+2025-01-31 01:20:16,458 [DEBUG]: Handling data: 0xdd 0x3c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:16,458 [DEBUG]: Processing: 0xdd 0x3c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:16,458 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:16,458 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:16,458 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:16,458 [DEBUG]: send: b'dd3c00000009010406001100110011'
+
+2025-01-31 01:20:17,268 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:20:18,513 [DEBUG]: Handling data: 0x33 0x2e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:18,513 [DEBUG]: Processing: 0x33 0x2e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:18,513 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:18,514 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:18,514 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:18,514 [DEBUG]: send: b'332e00000009010406001100110011'
+
+2025-01-31 01:20:20,562 [DEBUG]: Handling data: 0x77 0x67 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:20,562 [DEBUG]: Processing: 0x77 0x67 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:20,562 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:20,562 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:20,562 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:20,562 [DEBUG]: send: b'776700000009010406001100110011'
+
+2025-01-31 01:20:22,270 [INFO]: Modbus server shut down successfully.
+
+2025-01-31 01:20:22,270 [INFO]: Program exited successfully.
+
+2025-01-31 01:20:22,614 [DEBUG]: Handling data: 0x1 0x6e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:22,614 [DEBUG]: Processing: 0x1 0x6e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:22,614 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:22,614 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:22,614 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:22,614 [DEBUG]: send: b'016e00000009010406001100110011'
+
+2025-01-31 01:20:24,664 [DEBUG]: Handling data: 0x25 0x8b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:24,664 [DEBUG]: Processing: 0x25 0x8b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:24,664 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:24,664 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:24,664 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:24,664 [DEBUG]: send: b'258b00000009010406001100110011'
+
+2025-01-31 01:20:26,716 [DEBUG]: Handling data: 0xc2 0xeb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:26,717 [DEBUG]: Processing: 0xc2 0xeb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:26,717 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:26,717 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:26,717 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:26,717 [DEBUG]: send: b'c2eb00000009010406001100110011'
+
+2025-01-31 01:20:28,762 [DEBUG]: Handling data: 0x3a 0xf9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:28,762 [DEBUG]: Processing: 0x3a 0xf9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:28,762 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:28,762 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:28,762 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:28,762 [DEBUG]: send: b'3af900000009010406001100110011'
+
+2025-01-31 01:20:30,809 [DEBUG]: Handling data: 0x6 0x13 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:30,810 [DEBUG]: Processing: 0x6 0x13 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:30,810 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:30,810 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:30,810 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:30,810 [DEBUG]: send: b'061300000009010406001100110011'
+
+2025-01-31 01:20:32,862 [DEBUG]: Handling data: 0xa4 0xe3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:32,862 [DEBUG]: Processing: 0xa4 0xe3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:32,862 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:32,862 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:32,862 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:32,862 [DEBUG]: send: b'a4e300000009010406001100110011'
+
+2025-01-31 01:20:34,908 [DEBUG]: Handling data: 0xea 0xef 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:34,908 [DEBUG]: Processing: 0xea 0xef 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:34,908 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:34,908 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:34,908 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:34,908 [DEBUG]: send: b'eaef00000009010406001100110011'
+
+2025-01-31 01:20:35,080 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:20:35,080 [WARNING]: No active Modbus server thread found.
+
+2025-01-31 01:20:35,080 [INFO]: Program exited successfully.
+
+2025-01-31 01:20:51,625 [INFO]: Starting Modbus server...
+
+2025-01-31 01:20:51,625 [INFO]: Modbus server started successfully.
+
+2025-01-31 01:20:53,291 [DEBUG]: Started thread to serve client at ('192.168.56.106', 40904)
+
+2025-01-31 01:20:53,292 [DEBUG]: Client Connected [192.168.56.106:40904]
+
+2025-01-31 01:20:53,296 [DEBUG]: Handling data: 0x3e 0x76 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:53,296 [DEBUG]: Processing: 0x3e 0x76 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:53,296 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:53,296 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:53,296 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:53,296 [DEBUG]: send: b'3e7600000009010406001100110011'
+
+2025-01-31 01:20:55,351 [DEBUG]: Handling data: 0x2a 0xd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:55,351 [DEBUG]: Processing: 0x2a 0xd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:55,352 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:55,352 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:55,352 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:55,352 [DEBUG]: send: b'2a0d00000009010406001100110011'
+
+2025-01-31 01:20:57,401 [DEBUG]: Handling data: 0xe 0x14 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:57,401 [DEBUG]: Processing: 0xe 0x14 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:57,401 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:57,401 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:57,401 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:57,401 [DEBUG]: send: b'0e1400000009010406001100110011'
+
+2025-01-31 01:20:59,447 [DEBUG]: Handling data: 0xf5 0xd7 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:59,447 [DEBUG]: Processing: 0xf5 0xd7 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:20:59,447 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:20:59,448 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:20:59,448 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:20:59,448 [DEBUG]: send: b'f5d700000009010406001100110011'
+
+2025-01-31 01:21:01,505 [DEBUG]: Handling data: 0xe2 0x8d 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:01,505 [DEBUG]: Processing: 0xe2 0x8d 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:01,505 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:01,505 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:01,505 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:01,505 [DEBUG]: send: b'e28d00000009010406001100110011'
+
+2025-01-31 01:21:03,563 [DEBUG]: Handling data: 0x9 0x16 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:03,563 [DEBUG]: Processing: 0x9 0x16 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:03,563 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:03,563 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:03,563 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:03,563 [DEBUG]: send: b'091600000009010406001100110011'
+
+2025-01-31 01:21:05,612 [DEBUG]: Handling data: 0xe4 0x9b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:05,612 [DEBUG]: Processing: 0xe4 0x9b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:05,612 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:05,613 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:05,613 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:05,613 [DEBUG]: send: b'e49b00000009010406001100110011'
+
+2025-01-31 01:21:07,658 [DEBUG]: Handling data: 0x45 0x83 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:07,658 [DEBUG]: Processing: 0x45 0x83 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:07,658 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:07,658 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:07,658 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:07,658 [DEBUG]: send: b'458300000009010406001100110011'
+
+2025-01-31 01:21:09,701 [DEBUG]: Handling data: 0x38 0x60 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:09,701 [DEBUG]: Processing: 0x38 0x60 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:09,701 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:09,701 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:09,702 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:09,702 [DEBUG]: send: b'386000000009010406001100110011'
+
+2025-01-31 01:21:11,746 [DEBUG]: Handling data: 0xf 0x71 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:11,746 [DEBUG]: Processing: 0xf 0x71 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:11,746 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:11,747 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:11,747 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:11,747 [DEBUG]: send: b'0f7100000009010406001100110011'
+
+2025-01-31 01:21:13,798 [DEBUG]: Handling data: 0xd0 0x20 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:13,798 [DEBUG]: Processing: 0xd0 0x20 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:13,798 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:13,798 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:13,798 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:13,798 [DEBUG]: send: b'd02000000009010406001100110011'
+
+2025-01-31 01:21:15,842 [DEBUG]: Handling data: 0xc1 0xa5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:15,842 [DEBUG]: Processing: 0xc1 0xa5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:15,842 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:15,842 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:15,842 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:15,843 [DEBUG]: send: b'c1a500000009010406001100110011'
+
+2025-01-31 01:21:17,896 [DEBUG]: Handling data: 0x8c 0x65 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:17,896 [DEBUG]: Processing: 0x8c 0x65 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:17,896 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:17,896 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:17,896 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:17,896 [DEBUG]: send: b'8c6500000009010406001100110011'
+
+2025-01-31 01:21:19,944 [DEBUG]: Handling data: 0xea 0xb8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:19,945 [DEBUG]: Processing: 0xea 0xb8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:19,945 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:19,945 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:19,945 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:19,945 [DEBUG]: send: b'eab800000009010406001100110011'
+
+2025-01-31 01:21:21,999 [DEBUG]: Handling data: 0x19 0x6e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:21,999 [DEBUG]: Processing: 0x19 0x6e 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:22,000 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:22,000 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:22,000 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:22,000 [DEBUG]: send: b'196e00000009010406001100110011'
+
+2025-01-31 01:21:22,349 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:21:24,052 [DEBUG]: Handling data: 0xe7 0xb3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:24,052 [DEBUG]: Processing: 0xe7 0xb3 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:24,052 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:24,052 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:24,053 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:24,053 [DEBUG]: send: b'e7b300000009010406001100110011'
+
+2025-01-31 01:21:26,105 [DEBUG]: Handling data: 0x72 0x4a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:26,105 [DEBUG]: Processing: 0x72 0x4a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:26,105 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:26,105 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:26,106 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:26,106 [DEBUG]: send: b'724a00000009010406001100110011'
+
+2025-01-31 01:21:27,350 [INFO]: Modbus server shut down successfully.
+
+2025-01-31 01:21:27,350 [INFO]: Program exited successfully.
+
+2025-01-31 01:21:28,160 [DEBUG]: Handling data: 0xa7 0xdc 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:28,160 [DEBUG]: Processing: 0xa7 0xdc 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:28,160 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:28,160 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:28,160 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:28,160 [DEBUG]: send: b'a7dc00000009010406001100110011'
+
+2025-01-31 01:21:30,219 [DEBUG]: Handling data: 0x1b 0xb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:30,220 [DEBUG]: Processing: 0x1b 0xb 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:30,220 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:30,220 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:30,220 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:30,220 [DEBUG]: send: b'1b0b00000009010406001100110011'
+
+2025-01-31 01:21:32,281 [DEBUG]: Handling data: 0x19 0xbd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:32,281 [DEBUG]: Processing: 0x19 0xbd 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:32,281 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:32,281 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:32,281 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:32,281 [DEBUG]: send: b'19bd00000009010406001100110011'
+
+2025-01-31 01:21:34,332 [DEBUG]: Handling data: 0x77 0x45 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:34,333 [DEBUG]: Processing: 0x77 0x45 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:34,333 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:34,333 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:34,333 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:34,333 [DEBUG]: send: b'774500000009010406001100110011'
+
+2025-01-31 01:21:36,387 [DEBUG]: Handling data: 0x37 0x6a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:36,387 [DEBUG]: Processing: 0x37 0x6a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:36,387 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:36,387 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:36,387 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:36,387 [DEBUG]: send: b'376a00000009010406001100110011'
+
+2025-01-31 01:21:38,444 [DEBUG]: Handling data: 0x64 0x64 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:38,444 [DEBUG]: Processing: 0x64 0x64 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:38,444 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:38,444 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:38,444 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:38,444 [DEBUG]: send: b'646400000009010406001100110011'
+
+2025-01-31 01:21:40,493 [DEBUG]: Handling data: 0x61 0xe1 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:40,493 [DEBUG]: Processing: 0x61 0xe1 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:40,493 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:40,493 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:40,493 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:40,493 [DEBUG]: send: b'61e100000009010406001100110011'
+
+2025-01-31 01:21:42,539 [DEBUG]: Handling data: 0x66 0x54 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:42,539 [DEBUG]: Processing: 0x66 0x54 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:42,539 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:42,539 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:42,539 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:42,539 [DEBUG]: send: b'665400000009010406001100110011'
+
+2025-01-31 01:21:44,582 [DEBUG]: Handling data: 0x9b 0x9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:44,583 [DEBUG]: Processing: 0x9b 0x9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:44,583 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:44,583 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:44,583 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:44,583 [DEBUG]: send: b'9b0900000009010406001100110011'
+
+2025-01-31 01:21:46,629 [DEBUG]: Handling data: 0xd0 0x9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:46,630 [DEBUG]: Processing: 0xd0 0x9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:46,630 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:46,630 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:46,630 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:46,630 [DEBUG]: send: b'd00900000009010406001100110011'
+
+2025-01-31 01:21:48,676 [DEBUG]: Handling data: 0x8b 0x3a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:48,676 [DEBUG]: Processing: 0x8b 0x3a 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:48,676 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:48,676 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:48,676 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:48,676 [DEBUG]: send: b'8b3a00000009010406001100110011'
+
+2025-01-31 01:21:50,723 [DEBUG]: Handling data: 0x61 0x1f 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:50,723 [DEBUG]: Processing: 0x61 0x1f 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:50,723 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:50,723 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:50,723 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:50,723 [DEBUG]: send: b'611f00000009010406001100110011'
+
+2025-01-31 01:21:52,775 [DEBUG]: Handling data: 0xf9 0x56 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:52,775 [DEBUG]: Processing: 0xf9 0x56 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:52,775 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:52,775 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:52,775 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:52,775 [DEBUG]: send: b'f95600000009010406001100110011'
+
+2025-01-31 01:21:54,824 [DEBUG]: Handling data: 0xa7 0xe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:54,824 [DEBUG]: Processing: 0xa7 0xe 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:54,824 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:54,824 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:54,824 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:54,824 [DEBUG]: send: b'a70e00000009010406001100110011'
+
+2025-01-31 01:21:56,873 [DEBUG]: Handling data: 0x40 0x85 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:56,873 [DEBUG]: Processing: 0x40 0x85 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:56,873 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:56,873 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:56,873 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:56,873 [DEBUG]: send: b'408500000009010406001100110011'
+
+2025-01-31 01:21:58,928 [DEBUG]: Handling data: 0x4d 0x59 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:58,928 [DEBUG]: Processing: 0x4d 0x59 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:21:58,928 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:21:58,928 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:21:58,928 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:21:58,928 [DEBUG]: send: b'4d5900000009010406001100110011'
+
+2025-01-31 01:22:00,976 [DEBUG]: Handling data: 0xcb 0x1b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:00,977 [DEBUG]: Processing: 0xcb 0x1b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:00,977 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:00,977 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:00,977 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:00,977 [DEBUG]: send: b'cb1b00000009010406001100110011'
+
+2025-01-31 01:22:03,035 [DEBUG]: Handling data: 0x4c 0x51 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:03,035 [DEBUG]: Processing: 0x4c 0x51 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:03,035 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:03,035 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:03,035 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:03,035 [DEBUG]: send: b'4c5100000009010406001100110011'
+
+2025-01-31 01:22:05,083 [DEBUG]: Handling data: 0x10 0x9c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:05,083 [DEBUG]: Processing: 0x10 0x9c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:05,083 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:05,083 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:05,083 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:05,083 [DEBUG]: send: b'109c00000009010406001100110011'
+
+2025-01-31 01:22:07,129 [DEBUG]: Handling data: 0x8f 0x65 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:07,130 [DEBUG]: Processing: 0x8f 0x65 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:07,130 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:07,130 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:07,130 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:07,130 [DEBUG]: send: b'8f6500000009010406001100110011'
+
+2025-01-31 01:22:09,180 [DEBUG]: Handling data: 0xe7 0x56 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:09,180 [DEBUG]: Processing: 0xe7 0x56 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:09,180 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:09,180 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:09,180 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:09,180 [DEBUG]: send: b'e75600000009010406001100110011'
+
+2025-01-31 01:22:11,231 [DEBUG]: Handling data: 0x5a 0xa 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:11,231 [DEBUG]: Processing: 0x5a 0xa 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:11,231 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:11,231 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:11,231 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:11,231 [DEBUG]: send: b'5a0a00000009010406001100110011'
+
+2025-01-31 01:22:13,272 [DEBUG]: Handling data: 0x74 0x8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:13,272 [DEBUG]: Processing: 0x74 0x8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:13,272 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:13,272 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:13,272 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:13,272 [DEBUG]: send: b'740800000009010406001100110011'
+
+2025-01-31 01:22:15,323 [DEBUG]: Handling data: 0x4d 0xe9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:15,324 [DEBUG]: Processing: 0x4d 0xe9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:15,324 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:15,324 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:15,324 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:15,324 [DEBUG]: send: b'4de900000009010406001100110011'
+
+2025-01-31 01:22:17,369 [DEBUG]: Handling data: 0x26 0x49 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:17,369 [DEBUG]: Processing: 0x26 0x49 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:17,370 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:17,370 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:17,370 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:17,370 [DEBUG]: send: b'264900000009010406001100110011'
+
+2025-01-31 01:22:19,421 [DEBUG]: Handling data: 0x43 0x54 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:19,421 [DEBUG]: Processing: 0x43 0x54 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:19,421 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:19,421 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:19,421 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:19,421 [DEBUG]: send: b'435400000009010406001100110011'
+
+2025-01-31 01:22:21,475 [DEBUG]: Handling data: 0x86 0x31 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:21,475 [DEBUG]: Processing: 0x86 0x31 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:21,475 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:21,475 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:21,475 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:21,475 [DEBUG]: send: b'863100000009010406001100110011'
+
+2025-01-31 01:22:23,519 [DEBUG]: Handling data: 0x28 0x4b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:23,519 [DEBUG]: Processing: 0x28 0x4b 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:23,519 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:23,519 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:23,519 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:23,519 [DEBUG]: send: b'284b00000009010406001100110011'
+
+2025-01-31 01:22:25,566 [DEBUG]: Handling data: 0x8c 0x9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:25,566 [DEBUG]: Processing: 0x8c 0x9 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:25,566 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:25,566 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:25,566 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:25,566 [DEBUG]: send: b'8c0900000009010406001100110011'
+
+2025-01-31 01:22:27,603 [DEBUG]: Handling data: 0xe0 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:27,604 [DEBUG]: Processing: 0xe0 0xc8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:27,604 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:27,604 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:27,604 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:27,604 [DEBUG]: send: b'e0c800000009010406001100110011'
+
+2025-01-31 01:22:29,655 [DEBUG]: Handling data: 0xbe 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:29,656 [DEBUG]: Processing: 0xbe 0xd8 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:29,656 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:29,656 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:29,656 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:29,656 [DEBUG]: send: b'bed800000009010406001100110011'
+
+2025-01-31 01:22:31,701 [DEBUG]: Handling data: 0x72 0x8c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:31,701 [DEBUG]: Processing: 0x72 0x8c 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:31,701 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:31,701 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:31,701 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:31,701 [DEBUG]: send: b'728c00000009010406001100110011'
+
+2025-01-31 01:22:33,744 [DEBUG]: Handling data: 0x25 0xf5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:33,744 [DEBUG]: Processing: 0x25 0xf5 0x0 0x0 0x0 0x6 0x1 0x4 0x0 0x1 0x0 0x3
+
+2025-01-31 01:22:33,744 [DEBUG]: Factory Request[4]
+
+2025-01-31 01:22:33,744 [DEBUG]: validate[4] 2:3
+
+2025-01-31 01:22:33,744 [DEBUG]: getValues[4] 2:3
+
+2025-01-31 01:22:33,744 [DEBUG]: send: b'25f500000009010406001100110011'
+
+2025-01-31 01:23:26,642 [INFO]: Terminating existing Modbus server (PID 2722)
+
+2025-01-31 01:23:26,645 [INFO]: Starting Modbus server...
+
+2025-01-31 01:23:43,359 [INFO]: Terminating existing Modbus server (PID 2804)
+
+2025-01-31 01:23:43,362 [INFO]: Starting Modbus server...
+
+2025-01-31 01:24:22,374 [INFO]: Received termination signal. Shutting down Modbus server...
+
+2025-01-31 01:24:22,375 [INFO]: Modbus server shut down successfully.
+
+2025-01-31 01:24:26,498 [INFO]: Starting Modbus server...
+
+2025-01-31 01:26:18,600 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:26:18,602 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:26:18,602 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:26:22,286 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:26:22,288 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:26:22,288 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
+
+2025-01-31 01:26:23,363 [INFO]: Starting Modbus TCP Server...
+
+2025-01-31 01:26:23,365 [DEBUG]: Modbus server stopped
+
+2025-01-31 01:26:23,365 [ERROR]: Failed to start Modbus server: [Errno 98] Address already in use
