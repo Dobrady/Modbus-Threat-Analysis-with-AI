@@ -1,21 +1,21 @@
-# Modbus Experimental SERVER
+# 1. Modbus Experimental SERVER:
 
 This project is an experimental implementation of a Modbus TCP server designed for industrial control cybersecurity testing. The server is configured to simulate a Modbus device with specific identity details and includes functionality for automatic termination of any existing Modbus server instances running on the designated port.
 
-## Features
+## 1.1. Features
 
 - **Modbus TCP Server**: Implements a Modbus TCP server using `pymodbus`.
 - **Automatic Server Termination**: Checks for and terminates any existing server instances running on the specified port.
 - **Device Identity Setup**: Configures the Modbus server with customizable identity details.
 - **Signal Handling**: Gracefully shuts down the server upon receiving termination signals (SIGINT, SIGTERM).
 
-## Configuration
+## 1.2. Configuration
 
 The server can be configured using the following parameters:
 - `SERVER_IP`: IP address of the Modbus server (default: `"192.168.56.112"`).
 - `SERVER_PORT`: Port number for the Modbus server (default: `502`). Use a higher port number if running without root privileges (e.g., `1502`).
 
-## Installation
+## 1.3. Installation
 
 To run the Modbus server, ensure that you have the following dependencies installed:
 - Python 3.6 or higher
@@ -25,12 +25,12 @@ To run the Modbus server, ensure that you have the following dependencies instal
 - `subprocess`
 - `pymodbus`
 
-## Usage
+## 1.4. Usage
 Kill Existing Server: The script automatically checks for any existing Modbus server instances running on the specified port and terminates them.
 
 Start the Server: Run the script to initialize and start the Modbus TCP server with the configured identity details.
 
-## Example
+## 1.5. Example
 
 The server's identity details are configured as follows:
 - Vendor Name: https://www.cyberseclab.eu
@@ -41,19 +41,19 @@ The server's identity details are configured as follows:
 - Version: v1.0.7
 - Application Name: Industrial Control Cybersecurity Test
 
-## Signal Handling
+## 1.6. Signal Handling
 The server is equipped to handle termination signals (SIGINT, SIGTERM) to ensure graceful shutdown. Upon receiving a termination signal, the server stops running and cleans up resources.
 
-# Modbus Experimental CLIENT
+# 2. Modbus Experimental CLIENT
 
-# License
+# 3. License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Acknowledgments
+# 4. Acknowledgments
 This project is developed and maintained by www.CyberSecLab.eu
 
-# Contributing
+# 5. Contributing
 Contributions are welcome! Please submit pull requests or open issues to contribute to this project.
 
-# Contact
+# 6. Contact
 For inquiries, please contact us at zoltan.dobrady@cyberseclab.eu.
