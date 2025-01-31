@@ -1,0 +1,68 @@
+from pyModbusTCP.client import ModbusClient
+import time
+
+# Modbus TCP server configuration
+SERVER_HOST = "192.168.56.112"
+SERVER_PORT = 502
+
+# Modbus Input Registers for temperature data
+TEMPERATURE_REGISTERS = [30001, 30002, 30003]  # Boiler, oil, ambient temperature
+MODBUS_REGISTER_OFFSET = 30000  # Modbus register offset
+
+# Initialize the Modbus client
+client = ModbusClient(host=SERVER_HOST, port=SERVER_PORT, auto_open=True, auto_close=False)
+
+# Counters for successful and failed read attempts
+total_read_attempts =  0
+successful_reads = 0
+failed_reads = 0
+
+try:
+    print("*** Client 1 - Temperature Monitoring started...***\n")
+
+    while True:
+        # Compute actual Modbus register addresses
+        reg_start = TEMPERATURE_REGISTERS[0] - MODBUS_REGISTER_OFFSET  # Convert to absolute register address
+        num_registers = len(TEMPERATURE_REGISTERS)
+
+        # Read temperature values from the Modbus server
+        total_read_attempts +=1
+        print(f"*** Reading attempts: >{total_read_attempts}< ***")
+
+        temperature_values = client.read_input_registers(reg_start, num_registers)
+
+        
+        if temperature_values:
+            # Increment successful read counter
+            successful_reads += 1
+
+            # Display retrieved temperature values
+            print(f"Boiler Temperature: {temperature_values[0]} °C")
+            print(f"Oil Temperature: {temperature_values[1]} °C")
+            print(f"Ambient Temperature: {temperature_values[2]} °C")
+        else:
+            # Increment failed read counter
+            failed_reads += 1
+            print("Error: Failed to retrieve temperature data from the Modbus server.")
+
+        # Display read statistics
+        print(f"--->Successful Reads: {successful_reads}")
+        print(f"--->Failed Reads: {failed_reads}\n")
+
+        # Wait for 2 seconds before the next read operation
+        time.sleep(2)
+
+except KeyboardInterrupt:
+    print("\n*** Process terminated by user.***")
+    print(f"->Reading attempts: >{total_read_attempts}<")
+    print(f"->Successful Reads: >{successful_reads}<")
+    print(f"    ->Failed Reads: >{failed_reads}<\n")
+    
+
+except Exception as e:
+    print(f"*** Error occurred: {e} ***")
+
+finally:
+    # Close the Modbus connection before exiting
+    client.close()
+
