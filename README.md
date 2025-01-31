@@ -1,4 +1,3 @@
-markdown
 # Modbus Experimental Server
 
 This project is an experimental implementation of a Modbus TCP server designed for industrial control cybersecurity testing. The server is configured to simulate a Modbus device with specific identity details and includes functionality for automatic termination of any existing Modbus server instances running on the designated port.
