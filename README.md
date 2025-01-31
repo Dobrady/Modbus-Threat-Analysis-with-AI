@@ -44,7 +44,28 @@ The server's identity details are configured as follows:
 ## 1.6. Signal Handling
 The server is equipped to handle termination signals (SIGINT, SIGTERM) to ensure graceful shutdown. Upon receiving a termination signal, the server stops running and cleans up resources.
 
-# 2. Modbus Experimental CLIENT
+# 2. Modbus Experimental CLIENT_1:
+## 2.1. Client_1 Description
+
+The Modbus Experimental Client is designed to connect to the Modbus server and read temperature values
+from specific input registers. It continuously polls the server to monitor real-time temperature data.
+
+## 2.2.Features
+
+- Establishes a Modbus TCP connection to the server.
+- Reads temperature values from predefined input registers.
+- Implements error handling to detect failed read attempts.
+- Displays read statistics including successful and failed attempts.
+- Supports graceful termination via keyboard interrupt.
+
+## 2.3. Client Code Implementation
+
+The client is implemented using the `pyModbusTCP` library and follows the below workflow:
+- Initializes a connection to the Modbus server using the configured IP and port.
+- Defines input registers for temperature readings.
+- Continuously reads temperature data and prints the values.
+- Tracks successful and failed read attempts.
+- Implements signal handling to safely terminate the process.
 
 # 3. License
 This project is licensed under the MIT License. See the LICENSE file for details.
