@@ -1,4 +1,4 @@
-# Modbus Experimental Server
+# Modbus Experimental SERVER
 
 This project is an experimental implementation of a Modbus TCP server designed for industrial control cybersecurity testing. The server is configured to simulate a Modbus device with specific identity details and includes functionality for automatic termination of any existing Modbus server instances running on the designated port.
 
@@ -44,14 +44,16 @@ The server's identity details are configured as follows:
 ## Signal Handling
 The server is equipped to handle termination signals (SIGINT, SIGTERM) to ensure graceful shutdown. Upon receiving a termination signal, the server stops running and cleans up resources.
 
-## License
+# Modbus Experimental CLIENT
+
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Acknowledgments
+# Acknowledgments
 This project is developed and maintained by www.CyberSecLab.eu
 
-## Contributing
+# Contributing
 Contributions are welcome! Please submit pull requests or open issues to contribute to this project.
 
-## Contact
+# Contact
 For inquiries, please contact us at zoltan.dobrady@cyberseclab.eu.
