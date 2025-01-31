@@ -52,8 +52,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 # 4. Acknowledgments
 This project is developed and maintained by www.CyberSecLab.eu
 
-# 5. Contributing
-Contributions are welcome! Please submit pull requests or open issues to contribute to this project.
-
 # 6. Contact
 For inquiries, please contact us at zoltan.dobrady@cyberseclab.eu.
