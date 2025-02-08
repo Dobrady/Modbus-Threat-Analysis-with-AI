@@ -1,0 +1,124 @@
+from pyModbusTCP.client import ModbusClient
+import time
+
+# Modbus TCP server configuration
+SERVER_HOST = "192.168.56.112"
+SERVER_PORT = 502
+
+# Define Holding Register addresses for reading (hűtővíz monitorozás)
+HOLDING_REGISTERS = {
+    "Gas Flow": 40001,
+    "Cooling Water Temperature": 40005,
+    "Cooling Water Pressure": 40006,
+    "Cooling Water Flow": 40007
+}
+
+# Define Coil address for writing (Cooling Control)
+COIL_ADDRESSES = {
+    "Cooling Status": 13  # (0 = off, 1 = on)
+}
+
+# Setpoints and limits
+COOLING_TEMP_ON = 35      # Cooling activates if temperature exceeds this
+COOLING_TEMP_OFF = 30     # Cooling deactivates if temperature drops below this
+FLOW_MIN = 20             # Minimum required water flow to keep cooling active
+PRESSURE_MIN = 10         # Minimum required water pressure
+
+# Offset handling
+MODBUS_REGISTER_OFFSET = 40000
+
+# Initialize the Modbus client
+client = ModbusClient(host=SERVER_HOST, port=SERVER_PORT, auto_open=True, auto_close=False)
+
+# Statistics counters
+total_read_attempts = 0
+successful_reads = 0
+failed_reads = 0
+successful_writes = 0
+failed_writes = 0
+
+try:
+    print("*** Client 5 - Cooling System Control started... ***\n")
+
+    while True:
+        total_read_attempts += 1
+        print(f"*** Reading attempts: {total_read_attempts} ***")
+
+        # Egyenkénti olvasás minden regiszterhez
+        holding_values = {}
+        for key, address in HOLDING_REGISTERS.items():
+            register_value = client.read_holding_registers(address - MODBUS_REGISTER_OFFSET, 1)
+            if register_value:
+                holding_values[key] = register_value[0]  # Lista első eleme a valódi érték
+            else:
+                holding_values[key] = None  # Sikertelen olvasás
+                failed_reads += 1
+                print(f"ERROR: Failed to read {key} (Address: {address})")
+
+        # Ha az összes érték olvasása sikeres
+        if None not in holding_values.values():
+            successful_reads += 1
+            print("Successfully read data:\n")
+
+            # Extract values from response
+            gas_flow = holding_values["Gas Flow"]
+            cooling_water_temp = holding_values["Cooling Water Temperature"]
+            cooling_water_pressure = holding_values["Cooling Water Pressure"]
+            cooling_water_flow = holding_values["Cooling Water Flow"]
+
+            # Formatting for even column spacing
+            max_key_length = max(len(key) for key in HOLDING_REGISTERS.keys())
+
+            # Print Holding Registers data
+            for key, value in holding_values.items():
+                print(f"{key.ljust(max_key_length)} : {value}")
+
+            # Determine Cooling System Control Logic
+            if (
+                cooling_water_temp > COOLING_TEMP_ON
+                and cooling_water_flow >= FLOW_MIN
+                and cooling_water_pressure >= PRESSURE_MIN
+            ):
+                cooling_status = 1  # Turn cooling ON
+                print("Cooling ON.")
+            else:
+                cooling_status = 0  # Default: OFF
+
+                if cooling_water_temp <= COOLING_TEMP_OFF:
+                    print("Cooling OFF - Cooling water temperature too LOW.")
+                elif cooling_water_flow < FLOW_MIN:
+                    print("Cooling OFF - Cooling water flow too LOW.")
+                elif cooling_water_pressure < PRESSURE_MIN:
+                    print("Cooling OFF - Cooling water pressure too LOW.")
+
+            # Write to the Cooling Coil
+            cooling_coil_address = COIL_ADDRESSES["Cooling Status"]
+
+            if client.write_single_coil(cooling_coil_address, cooling_status):
+                successful_writes += 1
+                print(f"Cooling Status successfully set to {'ON' if cooling_status else 'OFF'}")
+            else:
+                failed_writes += 1
+                print(f"ERROR: Failed to write Cooling Status (Total Failures: {failed_writes})")
+
+        # Print statistics
+        print(f"---> Successful Reads: {successful_reads}")
+        print(f"---> Failed Reads: {failed_reads}")
+        print(f"---> Successful Writes: {successful_writes}")
+        print(f"---> Failed Writes: {failed_writes}\n")
+
+        time.sleep(1)
+
+except KeyboardInterrupt:
+    print("\n*** Process terminated by user. ***")
+    print(f"-> Total Read Attempts: {total_read_attempts}")
+    print(f"-> Successful Reads: {successful_reads}")
+    print(f"-> Failed Reads: {failed_reads}")
+    print(f"-> Successful Writes: {successful_writes}")
+    print(f"-> Failed Writes: {failed_writes}\n")
+
+except Exception as e:
+    print(f"*** Error occurred: {e} ***")
+
+finally:
+    client.close()
