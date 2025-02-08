@@ -1,0 +1,93 @@
+from pyModbusTCP.client import ModbusClient
+import time
+
+# Modbus TCP server configuration
+SERVER_HOST = "192.168.56.112"
+SERVER_PORT = 502
+
+# Define Modbus Holding Register addresses
+HOLDING_REGISTERS = {
+    "Gas Flow" : 40001,
+    "Oxygen Level" : 40002,
+    "Furnace Temperature" : 40003,
+    "Furnace Pressure": 40004,
+    "Cooling Water Temperature" : 40005,
+    "Cooling Water Pressure" : 40006,
+    "Cooling Water Flow" : 40007,
+    "Exhaust Gas Temperature" : 40008,
+    "Fan Speed": 40009
+}
+
+# Define Modbus Discrete Inputs (coil status) addresses
+DISCRETE_INPUTS = {
+    "Press Machine Status": 11,  # Cooling water valve (0 = closed, 1 = open)
+    "Furnace Heater Status": 12,  # Heater (0 = off, 1 = on)
+    "Water Cooler Status": 13  # Fan (0 = off, 1 = on)
+}
+
+# Offset handling
+MODBUS_REGISTER_OFFSET = 40000
+
+# Initialize the Modbus client
+client = ModbusClient(host=SERVER_HOST, port=SERVER_PORT, auto_open=True, auto_close=False)
+
+# Statistics counters
+total_read_attempts = 0
+successful_reads = 0
+failed_reads = 0
+
+try:
+    print("*** Client - Process Data Monitoring started... ***\n")
+
+    while True:
+        total_read_attempts += 1
+        print(f"*** Reading attempts: {total_read_attempts} ***")
+
+        # Read Holding Registers
+        reg_addresses = list(HOLDING_REGISTERS.values())
+        reg_start = reg_addresses[0] - MODBUS_REGISTER_OFFSET
+        num_registers = len(reg_addresses)
+
+        holding_values = client.read_holding_registers(reg_start, num_registers)
+
+        # Read Discrete Inputs (boolean values)
+        discrete_addresses = list(DISCRETE_INPUTS.values())
+        discrete_values = client.read_coils(min(discrete_addresses), len(discrete_addresses))
+        
+        if holding_values and discrete_values:
+            successful_reads += 1
+            print("Successfully read data:\n")
+
+            # Formatting for even column spacing
+            max_key_length = max(len(key) for key in HOLDING_REGISTERS.keys())  # Longest key name
+
+            # Print Holding Registers data
+            for i, (key, addr) in enumerate(HOLDING_REGISTERS.items()):
+                print(f"{key.ljust(max_key_length)} : {holding_values[i]}")
+
+            print("\nDiscrete Inputs (Binary States):")
+            for i, (key, addr) in enumerate(DISCRETE_INPUTS.items()):
+                state = "ON" if discrete_values[i] else "OFF"
+                print(f"{key.ljust(max_key_length)} : {state}")
+
+        else:
+            failed_reads += 1
+            print(f"ERROR: Failed to read (Total Failures: {failed_reads})")
+
+        # Print statistics
+        print(f"---> Successful Reads: {successful_reads}")
+        print(f"---> Failed Reads: {failed_reads}\n")
+
+        time.sleep(1)
+
+except KeyboardInterrupt:
+    print("\n*** Process terminated by user. ***")
+    print(f"-> Total Read Attempts: {total_read_attempts}")
+    print(f"-> Successful Reads: {successful_reads}")
+    print(f"-> Failed Reads: {failed_reads}\n")
+
+except Exception as e:
+    print(f"*** Error occurred: {e} ***")
+
+finally:
+    client.close()
