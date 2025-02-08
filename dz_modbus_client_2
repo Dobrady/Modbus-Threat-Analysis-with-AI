@@ -1,0 +1,87 @@
+from pyModbusTCP.client import ModbusClient
+import time
+import random
+from dataclasses import dataclass, fields
+
+# Modbus TCP server configuration
+SERVER_HOST = "192.168.56.112"
+SERVER_PORT = 502
+
+# Define the starting register
+MODBUS_REGISTER_START = 40001
+MODBUS_REGISTER_OFFSET = 40000
+
+@dataclass
+class ProcessData:
+    gas_flow: int = 0
+    oxygen_level: int = 0
+    furnace_temp: int = 0
+    furnace_pressure: int = 0
+    cooling_water_temp: int = 0
+    cooling_water_pressure: int = 0
+    cooling_water_flow: int = 0
+    exhaust_gas_temp: int = 0
+    
+    def __post_init__(self): # Generate random values for all attributes when an instance is created.
+        self.gas_flow = random.randint(5, 20)
+        self.oxygen_level = random.randint(150, 210)
+        self.furnace_temp = random.randint(600, 900)
+        self.furnace_pressure = random.randint(25, 50)
+        self.cooling_water_temp = random.randint(10, 40)
+        self.cooling_water_pressure = random.randint(10, 35)
+        self.cooling_water_flow = random.randint(20, 100)
+        self.exhaust_gas_temp = random.randint(200, 500)
+        
+        
+# Dynamically determine the number of registers needed
+MODBUS_REGISTER_RANGE = list(range(MODBUS_REGISTER_START, MODBUS_REGISTER_START + len(fields(ProcessData))))
+
+# Initialize the Modbus client
+client = ModbusClient(host=SERVER_HOST, port=SERVER_PORT, auto_open=True, auto_close=False)
+
+# Statistics
+total_write_attempts = 0
+successful_write = 0
+failed_write = 0
+
+try:
+    print("*** Client 2 - Process Data Generator started... ***\n")
+    
+    while True:
+        total_write_attempts += 1
+        print(f"*** Writing attempts: {total_write_attempts} ***")
+
+        # Generate new process data
+        data = ProcessData()
+        register_values = list(data.__dict__.values())
+
+        # Compute Modbus register start address
+        reg_start = MODBUS_REGISTER_RANGE[0] - MODBUS_REGISTER_OFFSET  
+
+        # Write data to Modbus server
+        if client.write_multiple_registers(reg_start, register_values):
+            successful_write += 1
+            print("Successfully wrote data:")
+            for key, value in data.__dict__.items():
+                print(f"{key.replace('_', ' ').title()}: {value}")
+        else:
+            failed_write += 1
+            print(f"ERROR: Failed to write (Total Failures: {failed_write})")
+
+        # Print statistics
+        print(f"---> Successful Writes: {successful_write}")
+        print(f"---> Failed Writes: {failed_write}\n")
+
+        time.sleep(2)
+
+except KeyboardInterrupt:
+    print("\n*** Process data generation stopped by user. ***")
+    print(f"-> Total Write Attempts: {total_write_attempts}")
+    print(f"-> Successful Writes: {successful_write}")
+    print(f"-> Failed Writes: {failed_write}\n")
+
+except Exception as e:
+    print(f"*** Error occurred: {e} ***")
+
+finally:
+    client.close()
