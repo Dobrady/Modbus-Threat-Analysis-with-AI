@@ -1,0 +1,114 @@
+from pyModbusTCP.client import ModbusClient
+import time
+
+# Modbus TCP server configuration
+SERVER_HOST = "192.168.56.112"
+SERVER_PORT = 502
+
+# Define Holding Register addresses for reading 
+HOLDING_REGISTERS = {
+    "Furnace Temperature": 40003,
+    "Cooling Water Temperature": 40005
+}
+
+# Define Coil address for writing (Press Control)
+COIL_ADDRESSES = {
+    "Press Status": 11  # (0 = off, 1 = on)
+}
+
+# Setpoints
+TEMP_THRESHOLD = 750      # Temperature threshold for press activation
+COOLING_TEMP_MAX = 38     # Maximum allowed cooling water temperature
+
+# Offset handling
+MODBUS_REGISTER_OFFSET = 40000
+
+# Initialize the Modbus client
+client = ModbusClient(host=SERVER_HOST, port=SERVER_PORT, auto_open=True, auto_close=False)
+
+# Statistics counters
+total_read_attempts = 0
+successful_reads = 0
+failed_reads = 0
+successful_writes = 0
+failed_writes = 0
+
+try:
+    print("*** Client 3 - Press Control & Monitoring started... ***\n")
+
+    while True:
+        total_read_attempts += 1
+        print(f"*** Reading attempts: {total_read_attempts} ***")
+
+      
+        holding_values = {}
+        for key, address in HOLDING_REGISTERS.items():
+            register_value = client.read_holding_registers(address - MODBUS_REGISTER_OFFSET, 1)
+            if register_value:
+                holding_values[key] = register_value[0]  
+            else:
+                holding_values[key] = None  # Sikertelen olvasás
+                failed_reads += 1
+                print(f"ERROR: Failed to read {key} (Address: {address})")
+
+        # Ha az összes érték olvasása sikeres
+        if None not in holding_values.values():
+            successful_reads += 1
+            print("Successfully read data:\n")
+
+            # Extract values from response
+            furnace_temp = holding_values["Furnace Temperature"]
+            cooling_water_temp = holding_values["Cooling Water Temperature"]
+
+            # Formatting for even column spacing
+            max_key_length = max(len(key) for key in HOLDING_REGISTERS.keys())
+
+            # Print Holding Registers data
+            for key, value in holding_values.items():
+                print(f"{key.ljust(max_key_length)} : {value}")
+
+            # Determine Press Control Logic
+            if furnace_temp > TEMP_THRESHOLD and cooling_water_temp <= COOLING_TEMP_MAX:
+                press_status = 1  # Turn press ON
+                print("Press ON.")
+            else:
+                press_status = 0  # Default: OFF
+
+                if furnace_temp <= TEMP_THRESHOLD and cooling_water_temp > COOLING_TEMP_MAX:
+                    print("Press OFF - Furnace T. too LOW AND Water T. too HIGH")
+                elif furnace_temp <= TEMP_THRESHOLD:
+                    print("Press OFF - Furnace T. too LOW")
+                elif cooling_water_temp > COOLING_TEMP_MAX:
+                    print("Press OFF - Water T. too HIGH")
+
+
+            # Write to the Press Coil
+            press_coil_address = COIL_ADDRESSES["Press Status"]
+
+            if client.write_single_coil(press_coil_address, press_status):
+                successful_writes += 1
+            else:
+                failed_writes += 1
+                print(f"ERROR: Failed to write Press Status (Total Failures: {failed_writes})")
+
+        # Print statistics
+        print(f"---> Successful Reads: {successful_reads}")
+        print(f"---> Failed Reads: {failed_reads}")
+        print(f"---> Successful Writes: {successful_writes}")
+        print(f"---> Failed Writes: {failed_writes}\n")
+
+        time.sleep(1)
+
+except KeyboardInterrupt:
+    print("\n*** Process terminated by user. ***")
+    print(f"-> Total Read Attempts: {total_read_attempts}")
+    print(f"-> Successful Reads: {successful_reads}")
+    print(f"-> Failed Reads: {failed_reads}")
+    print(f"-> Successful Writes: {successful_writes}")
+    print(f"-> Failed Writes: {failed_writes}\n")
+
+except Exception as e:
+    print(f"*** Error occurred: {e} ***")
+
+finally:
+    client.close()
