@@ -1,7 +1,10 @@
+#!/usr/bin/env python
+
 import asyncio
 import signal
 import os
 import subprocess
+import logging
 from pymodbus.server import StartAsyncTcpServer
 from pymodbus.datastore import ModbusSequentialDataBlock
 from pymodbus.datastore import ModbusSlaveContext, ModbusServerContext
@@ -11,14 +14,21 @@ from pymodbus.device import ModbusDeviceIdentification
 SERVER_IP = "192.168.56.112"
 SERVER_PORT = 502  # Use a higher port if running without root privileges, e.g., 1502
 
+# Logging Configuration
+LOG_FILE = "modbus_server124.log"
+logging.basicConfig(
+    filename=LOG_FILE,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    level=logging.DEBUG  # Change to logging.INFO for less verbosity
+)
+logger = logging.getLogger("pymodbus")
+
 def kill_existing_server(port):
     """Checks if a process is already using the specified port and terminates it."""
     try:
-        # Retrieve the PID of the process using the port
         result = subprocess.run(
             ["sudo", "lsof", "-t", f"-i:{port}"], capture_output=True, text=True
         )
-        
         if result.stdout.strip():
             pids = result.stdout.strip().split("\n")
             for pid in pids:
@@ -28,6 +38,7 @@ def kill_existing_server(port):
             print(f"No active Modbus server found on port {port}.\n")
     except Exception as e:
         print(f"Error occurred while checking for existing server: {e}")
+        logger.error(f"Error checking for existing server: {e}")
 
 def create_modbus_identity():
     """Define the Modbus server identification details."""
@@ -42,43 +53,50 @@ def create_modbus_identity():
     return identity
 
 async def start_server():
-    """Initializes and starts a Modbus TCP server with proper signal handling and identity setup."""
+    """Initializes and starts a Modbus TCP server with logging and identity setup."""
     store = ModbusSlaveContext(
         di=ModbusSequentialDataBlock(0, [17] * 100),
         co=ModbusSequentialDataBlock(0, [17] * 100),
-        hr=ModbusSequentialDataBlock(0, [17] * 100),
-        ir=ModbusSequentialDataBlock(0, [17] * 100)
+        hr=ModbusSequentialDataBlock(0, [14] * 100),
+        ir=ModbusSequentialDataBlock(0, [99] * 100)
     )
     context = ModbusServerContext(slaves=store, single=True)
-    identity = create_modbus_identity()  # Assign identity details
+    identity = create_modbus_identity()
 
     stop_event = asyncio.Event()
 
     def handle_signal():
         print("\nTermination signal received. Shutting down the server...")
+        logger.info("Termination signal received. Shutting down the server...")
         stop_event.set()
 
     loop = asyncio.get_running_loop()
     loop.add_signal_handler(signal.SIGINT, handle_signal)
     loop.add_signal_handler(signal.SIGTERM, handle_signal)
 
+    logger.info(f"Starting Modbus server on {SERVER_IP}:{SERVER_PORT}")
     print(f"Initializing Modbus server on {SERVER_IP}:{SERVER_PORT} with device identity...\n")
 
     # Start the server with identity details
     server_task = asyncio.create_task(StartAsyncTcpServer(
         context, identity=identity, address=(SERVER_IP, SERVER_PORT)
     ))
-    # Print identity details to the terminal after the server starts
-    print(f"Vendor Name:         {identity.VendorName}")
-    print(f"Product Code:        {identity.ProductCode}")
-    print(f"Vendor URL:          {identity.VendorUrl}")
-    print(f"Product Name:        {identity.ProductName}")
-    print(f"Model Name:          {identity.ModelName}")
-    print(f"Version:             {identity.MajorMinorRevision}")
-    print(f"Application Name:    {identity.UserApplicationName}")
-    print("------------------------------------\n")
-    print(f"---> Modbus Server is runing on {SERVER_IP}:{SERVER_PORT} <---")
-    
+
+    # Print identity details and log them
+    identity_info = f"""
+    Vendor Name:         {identity.VendorName}
+    Product Code:        {identity.ProductCode}
+    Vendor URL:          {identity.VendorUrl}
+    Product Name:        {identity.ProductName}
+    Model Name:          {identity.ModelName}
+    Version:             {identity.MajorMinorRevision}
+    Application Name:    {identity.UserApplicationName}
+    ------------------------------------
+    ---> Modbus Server is running on {SERVER_IP}:{SERVER_PORT} <---
+    """
+    print(identity_info)
+    logger.info(identity_info)
+
     await stop_event.wait()
 
     # Gracefully stop the server
@@ -87,6 +105,7 @@ async def start_server():
         await server_task
     except asyncio.CancelledError:
         print("Modbus server successfully stopped.")
+        logger.info("Modbus server successfully stopped.")
 
 if __name__ == "__main__":
     # Automatically terminate any existing Modbus server running on the specified port
@@ -96,3 +115,4 @@ if __name__ == "__main__":
         asyncio.run(start_server())
     except KeyboardInterrupt:
         print("\nModbus server interrupted. Exiting gracefully.")
+        logger.info("Modbus server interrupted. Exiting gracefully.")
