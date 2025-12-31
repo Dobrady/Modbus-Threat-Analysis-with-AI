@@ -1,8 +1,0 @@
-#	Kliens neve	Művelet típusa	Modbus parancs	Regisztertartomány	Leírás
-1️⃣	Hőmérséklet-figyelő	Adatok lekérése	Read Input Registers (0x04)	30001 - 30003	Kiolvassa a kazán, olaj és külső hőmérsékletet.
-2️⃣	Nyomásmérő	Adatok lekérése	Read Input Registers (0x04)	30010 - 30011	Kiolvassa a víznyomás és hidraulika nyomás értékeit.
-3️⃣	Motor állapotfigyelő	Digitális kiolvasás	Read Coils (0x01)	00001 - 00002	Ellenőrzi, hogy a motorok be vannak-e kapcsolva.
-4️⃣	Motor vezérlő	Írási művelet	Write Holding Register (0x06)	40020 - 40021	Beállítja a motorok fordulatszámát (500-3000 RPM között).
-5️⃣	Biztonsági ellenőrző	Digitális kiolvasás	Read Discrete Inputs (0x02)	10001 - 10002	Ellenőrzi a vészleállító és a biztonsági ajtó állapotát.
-
-newton leibnitz modszer
